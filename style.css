@@ -1,0 +1,468 @@
+.link{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 580px;
+    justify-content: center;
+    gap: 80px;
+    list-style-type: none;
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: transparent;  
+}
+
+li {
+    background-color: transparent;
+}
+
+#font {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#a_header {
+    color: silver;
+    font-size:20px;
+}
+
+#a_header:hover {
+    color:blue;
+}
+
+#back {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+#text-header {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#my_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 120px;
+    margin-top: 50px;
+}
+
+
+.aboutme{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    background-color: rgb(8, 9, 10);
+
+}
+.div_aboutme{
+    
+    width:550px;
+    height:360px;
+}
+.aboutme_head{
+    color:blue;
+    font-size:30px;
+}
+.aboutme_para{
+    color:white;
+    font-size:20px;
+    /* text-align: left;
+    padding-right: 20px; */
+}
+#line{
+    width:200px;
+    margin-top:-10px;
+    border-color: blue;
+}
+#line:hover{
+    width:440px;
+    border-color: blue;
+    
+}
+.education {
+    padding: 5px 0;
+    background-color: rgb(8, 9, 10);
+
+}
+
+.education h1 {
+    text-align: center;
+   
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #2196F3;
+}
+#h1_education{
+    color:blue;
+    padding-top:20px;
+}
+
+.timeline-date {
+    width: 150px;
+    text-align: right;
+    padding-right: 20px;
+    font-family: "Playfair Display", serif;
+    color: blue;
+    margin-left:20px;
+}
+
+.timeline-content {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Oswald", sans-serif;
+    position: relative;
+}
+
+.timeline-content h2, .timeline-content h3 {
+    margin: 10px 0;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    margin-left: 20px;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    margin-left: 20px;
+}
+
+
+.skills{
+   
+    background-color: rgb(8, 9, 10);
+    margin-top:-20px;
+    padding-top:10px;
+    
+}
+.skill{
+    color:white;
+    text-align: center;
+    display:fixed;
+    flex-direction:column;
+    padding-left:350px;
+    padding-right:350px;
+   
+}
+#skill-h1{
+    font-size:40px;
+    color:blue;
+    text-align: center;
+    
+    
+}
+.certificate h1 {
+    text-align: center;
+  
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+#skill_head{
+    font-size: 32px;
+    color:aqua;
+    margin-top:-10px;
+}
+.certificate{
+    background-color: rgb(8, 9, 10);
+    margin-top:-20px;
+    padding-top:10px;
+    color:blue;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#drive_img{
+    width:100px;
+    height:100px;
+}
+#skill_line{
+    width:200px;
+    margin-top:-10px;
+    border-color: blue;
+    margin-top:10px;
+}
+#cert_line{
+    width:200px;
+    margin-top:-10px;
+    border-color: blue;
+    margin-top:10px;
+}
+
+#cert_line:hover{
+    width:440px;
+    margin-top:-10px;
+    border-color: blue;
+    margin-top:10px;
+}
+#skill_line:hover{
+    width:440px;
+    border-color: blue;
+    
+}
+/*  tools and programming languages*/
+.tool{
+    background-color:rgb(8, 9, 10);
+    margin-top:-30px;
+    padding-bottom:20px;
+}
+#h1_tool{
+    color:blue;
+    font-size:25px;
+    text-align: center;
+    
+}
+#tool_line{
+    width:200px;
+    margin-bottom:10px;
+    border-color: blue;
+   
+}
+#tool-line:hover{
+    width:440px;
+    
+    border-color: blue;
+    
+}
+.tool_img{
+   list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-left:120px;
+    padding-right:120px;   
+    padding-top:50px;
+    padding-bottom:60px;
+}
+#html_id{
+    width:50px;
+    height:50px;
+}
+#css_id{
+    width:50px;
+    height:50px;
+}
+/*  coding */
+.coding{
+    display:flex;
+    position:relative;
+    justify-content: space-evenly;
+    list-style-type:none;
+    align-items: center;
+    padding-left:250px;
+    padding-right:280px; 
+    border-color:white;   
+}
+#leetcode{
+    width:150px;
+    height:130px;
+}
+#hackerrank{
+    width:150px;
+    height:130px;
+
+}
+#codechef{
+    width:150px;
+    height:130px;
+}
+.coding_platform{
+    text-align: center;
+    font-size: 20px;
+    color:blue;
+    flex-direction:row;
+    background-color: rgb(8, 9, 10);
+    margin-top:-30px;
+}
+#h1_coding{
+    padding-top:30px;
+}
+#coding_line{
+    margin-bottom:-20px;
+}
+.footer {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -25px;
+    background-image: linear-gradient(rgba(12, 15, 21, 0.7),rgba(174, 174, 209, 0.7));
+}
+
+.footer h1 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding-top:30px;
+    font-weight: 600;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons li {
+    display: inline-block;
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.footer p {
+    color: white;
+}
+#heart{
+    width:20px;
+    height:20px;
+}
+
+@media(min-width:700px) and (max-width:1100px){
+    .skill{
+        color:white;
+     
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        padding-left:150px;
+        padding-right:130px;
+    }
+    .coding{
+        display:flex;
+        position:relative;
+        justify-content: space-evenly;
+        list-style-type:none;
+        align-items: center;
+        padding-left:150px;
+        padding-right:280px; 
+        border-color:white;   
+    }
+    .link {
+        flex-direction: row;
+        position: relative;
+        padding-left: 240px;
+        justify-content: space-between;
+        gap: 40px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 700px) {
+    .link {
+        flex-direction: row;
+        position: relative;
+        padding-left: 50px;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .skill{
+        color:white;
+        text-align: center;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        padding-left:50px;
+        padding-right:50px;
+      
+    }
+    .coding{
+        display:flex;
+        position:relative;
+        justify-content: space-evenly;
+        list-style-type:none;
+        align-items: center;
+        padding-left:50px;
+        padding-right:50px; 
+        border-color:white;   
+    }
+    #leetcode{
+        width:80px;
+        height:80px;
+    }
+    #hackerrank{
+        width:80px;
+        height:80px;
+    
+    }
+    #codechef{
+        width:80px;
+        height:80px;
+    }
+    .tool_img{
+        list-style-type:none;
+         display:flex;
+         flex-direction:row;
+         position:relative;
+         
+        
+         padding-left:30px;
+          
+         padding-top:50px;
+         padding-bottom:60px;
+     }
+     #h1_education{
+        color:blue;
+        padding-top:80px;
+    }
+}
